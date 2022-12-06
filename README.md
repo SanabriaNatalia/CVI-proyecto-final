@@ -11,3 +11,21 @@ El proyecto final para computación visual interactiva consiste en un modelo 3D 
 El proyecto permite al usuario utilizar las acciones del mouse para rotar la pantalla y del scroll para acercarse o alejarse del modelo. Los planetas siguen sus órbitas haciendo uso de cuaterniones en Three.js
 
 Un ejemplo de visualización puede consultarse en el siguiente link: https://youtu.be/KUsb2icsJ7Q
+
+## Instrucciones para correr el programa
+
+El programa se realizó utilizando vite para hacer el despliegue.
+
+1. Clonar el repositorio en la carpeta deseada
+2. Ingresar a la carpeta con la consola/terminal
+3. Instalar Three.js en la carpeta usando el siguiente comando
+
+`npm install three`
+
+4. Correr la aplicación con 
+
+`npm run dev`
+
+5. Alternativamente, se puede ver el despliegue de la aplicación en StackBlitz. Sin embargo, en este caso no corren las texturas.
+
+https://stackblitz.com/edit/vitejs-vite-vqomc8?file=main.js
